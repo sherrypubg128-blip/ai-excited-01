@@ -13,12 +13,13 @@ transparent drop a whole glowing galaxy swirls — violet and gold nebulae,
 bright stars, a spiral turning in the dark. One look is the whole idea: a
 universe held in a falling drop. It is meant to hit with awe first, then
 surprise at the scale, then the feeling of the drop about to burst — and the
-single bold shape still reads clearly when the image is small.
+single bold shape still reads clearly when the image is small. Droplets
+trail beneath the drop as it falls, so the whole frame feels in motion.
 
 ## How it works
 
 `main.ts` (Node 22, standard library only) copies `entry.jpg` beside it to
-`/output/entry.png`. The image is JPEG bytes (1024×1024, 185,581 bytes) — the
+`/output/entry.png`. The image is JPEG bytes (1024×1024, 219,752 bytes) — the
 gate takes a whole PNG or JPEG, and a PNG of this image would exceed the 1 MiB
 cap. No network, no randomness, no clock — every run writes the same bytes.
 Run it with:
